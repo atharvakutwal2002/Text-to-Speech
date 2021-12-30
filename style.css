@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 100;
+}
+body{
+    text-shadow:  .1rem .1rem rgba(114, 103, 103, 0.986);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(58, 57, 57);
+    box-shadow: 0 2rem 4rem  black;
+
+}
+.wrapper{
+    box-shadow: 0 2rem 4rem rgba(10, 9, 9, 0.986);
+    background: whitesmoke;
+    width: 20rem;
+    height: 25rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.wrapper header{
+    box-shadow: 0 .5rem 1rem rgba(10, 9, 9, 0.986);
+    text-align: center;
+    padding: .2rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.wrapper form{
+    margin: 1rem;
+}
+form .row{
+    
+    display: flex;
+    flex-direction: column;
+}
+form .row label{
+    
+    font-size: 1rem;
+    margin-bottom: .2rem;
+}
+form :where(textarea , select ,button){
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: .2rem;
+}
+form .row textarea{
+    box-shadow: 0 .3rem 1rem rgba(10, 9, 9, 0.986);
+    border:  1px solid black;
+    resize: none;
+    height: 110px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+form .row .outer{
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+form .row select{
+    font-size: 14px;
+}
+form button{
+    height: 52px;
+    margin-top: 10px;
+    background: rgb(66, 60, 60);
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+}
+.outer select{
+    margin-top: .1rem;
+}
+.wrapper .copy{
+    
+    text-align: center;
+    align-items: center;
+}
